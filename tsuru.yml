@@ -1,0 +1,9 @@
+php:
+    version: 5.6
+    frontend:
+        name: apache
+        options:
+            vhost_file: ./vhost.conf
+    composer: true
+    interpretor:
+        name: fpm
